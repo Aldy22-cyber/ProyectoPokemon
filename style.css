@@ -148,7 +148,7 @@ section form {
   border: 2px solid black;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
+  font-family:  roboto mono, monospace;;
   text-align: center;
   font-size: 18px;
 }
@@ -209,7 +209,7 @@ section form button {
 
 
 /* Estilos para pantallas pequeñas */
-@media (max-width: 799px) {
+@media (max-width: 768px) {
   .nav {
     flex-direction: column;
     gap: 10px;
@@ -225,8 +225,10 @@ section form button {
   }
 
   .video {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+    
   }
 
 }
